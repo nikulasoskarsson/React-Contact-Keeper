@@ -85,6 +85,7 @@ const ContactForm = () => {
         name='type'
         value='personal'
         checked={type === 'personal'}
+        onChange={onChange}
       />
       Personal {''}
       <input
